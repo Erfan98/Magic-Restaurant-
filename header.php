@@ -28,6 +28,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar">
 
+		<div class="top-header-holder"></div>
+
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
 		<nav id="main-nav" class="navbar navbar-expand-lg" aria-labelledby="main-nav-label">
